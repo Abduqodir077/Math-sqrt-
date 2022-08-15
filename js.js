@@ -1,10 +1,8 @@
 let par = document.getElementById("demo");
-// let outputScreen = document.getElementById("output-screen");
+let input = document.getElementById("input");
+let btn = document.getElementById("btn");
+let scroll = document.getElementById("scroll");
 
-// function display(num){
-//     outputScreen.value += num;
-// }
-
-par.innerHTML = Math.sqrt(64);
-
-
+btn.addEventListener("click", () => {
+   par.innerHTML = Math.sqrt(input.value)
+})
