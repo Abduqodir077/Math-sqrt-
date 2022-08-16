@@ -23,11 +23,41 @@ body{
     flex-direction: column;
 }
 
+header{
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    padding: 20px 40px;
+    border: 1px solid black;
+    text-decoration: none;
+    color: cadetblue;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+header a:hover{
+    text-decoration: underline;
+    background: cadetblue;
+    color: #fff;
+}
+
+.nav{
+    margin-top: 40px;
+    width: 100%;
+}
+
 .nav h1{
     margin-bottom: 20px;
 }
 
 .container{
+    margin-top: 50px;
     max-width: 250px;
     width: 100%;
     height: 250px;
