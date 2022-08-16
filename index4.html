@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Math min</title>
+    <title>Math pow</title>
 </head>
 
 <body>
@@ -17,16 +17,17 @@
             <a href="index.html">Square</a>
             <a href="index2.html">Radians</a>
             <a href="index3.html">Math rounding numbers</a>
-            <a href="index4.html">Math Min</a>
+            <a href="index4.html">Math pow</a>
         </header>
 
         <div class="nav">
-            <h1 style="text-align: center;">Min</h1>
+            <h1 style="text-align: center;">Math pow</h1>
         </div>
 
         <div class="container">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSskvCnW5QeICYqDzLmKV7_gnbBwIaSRVcr_A&usqp=CAU" alt="">
+            <img src="https://w7.pngwing.com/pngs/373/229/png-transparent-mathematical-notation-mathematics-symbol-subscript-and-superscript-exponentiation-mathematics-angle-text-logo-thumbnail.png" alt="">
             <input id="input" type="number" placeholder="Enter number !"></input>
+            <input id="input1" type="number" placeholder="Enter number !"></input>
             <button id="btn">click</button>
             <div class="par">
                 <p id="demo">0</p>
@@ -37,11 +38,12 @@
         <script>
             let par = document.getElementById("demo");
             let input = document.getElementById("input");
+            let input1 = document.getElementById("input1");
             let btn = document.getElementById("btn");
             let scroll = document.getElementById("scroll");
 
             btn.addEventListener("click", () => {
-                par.innerHTML = Math.pow(input.value)
+                par.innerHTML = Math.pow(input.value,input1.value)
             })
 
 

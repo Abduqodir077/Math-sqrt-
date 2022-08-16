@@ -87,6 +87,18 @@ header a:hover{
     margin-bottom: 10px;
 }
 
+.container #input1{
+    color: black;
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-left: 10px;
+    width: 80%;
+    height: 4vh;
+    border-radius: 20px;
+    outline: none;
+    margin-bottom: 10px;
+}
+
 .container #btn{
     width: 120px;
     height: 30px;
