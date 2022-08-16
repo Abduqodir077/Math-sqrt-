@@ -10,7 +10,6 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    /* height: 100vh; */
 }
 
 .wrapper{
@@ -27,9 +26,10 @@ header{
     margin-top: 20px;
     width: 100%;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px,auto));
+    gap: 1rem;
+    padding: 0 10px;
 }
 
 header a{
@@ -128,4 +128,10 @@ header a:hover{
 .par #demo{
     font-size: 1.8rem;
     font-weight: 800;
+}
+
+@media (max-width: 300px) {
+    footer a{
+        font-size: 1rem;
+    }
 }
